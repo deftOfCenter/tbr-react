@@ -1,0 +1,25 @@
+@charset "utf-8";
+#container {
+width: 520px;
+font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+color: #6C5833;
+text-align: center;
+margin: 0 auto;
+}
+#container p { 
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; 
+}
+a img { border: none; }
+.nospace { display: block; }
+.image { margin: 0 auto; }
+#centercolumn2 {
+	font-size: 12px;
+
+	line-height: 18px;
+}
+.linkword {
+	color: #960;
+	text-decoration: none;
+	font-weight: bold;
+}
+

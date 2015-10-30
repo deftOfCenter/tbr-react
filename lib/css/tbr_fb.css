@@ -1,0 +1,87 @@
+/* in header.html */
+body {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+#wrapper {
+	text-align: left;
+	width: 760px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-color: #FFF;
+	background-repeat: repeat-y;
+	background-image: url(/Images/BRGetBackgroundWhite.png);
+}
+#header {
+	margin-top: 12px;
+}
+#HeaderBar {
+	width: 760px;
+	margin-top: 12px;
+	margin-bottom: 0px;
+}
+#navBar {
+	margin: 0;
+	padding: 0;
+}
+/* in main body of htmls */
+/* index.html */
+
+	color: #6C5833;
+		font-size: large;
+	font-style: normal;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+
+.linkword {
+	color: #960;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+#schedule {
+	font-size: 24px; 
+	color: rgb(153,102,0);
+}
+/* schedule table */
+#schedule_tbl {
+	margin: 0;
+	padding 0;
+	border-style: hidden; 
+	border-collapse: collapse;
+}
+#schedule_tbl td.dayOfWeek {
+	border: #6c5833 1px solid;
+	text-align: center;
+	color: #7cb14d;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10px 5px;
+}
+#schedule_tbl td.classCol {
+	border: #6c5833 1px solid;
+	text-align: center;
+	color: #7cb14d;
+	font-size: 12px;
+	padding: 10px 5px;
+}
+#schedule_tbl td.classCol p {
+	min-height: 80px;
+}
+#schedule_tbl td.classCol p span.time {
+	color: #6c5833;
+	font-weight: bold;
+}
+#schedule_tbl td.classCol p span.name {
+	color: #ff8c00;
+	line-height: 110%;
+}
+#schedule_tbl td.classCol p span.teacher {
+	color: #7cb14d;
+	font-style:italic;
+}#
